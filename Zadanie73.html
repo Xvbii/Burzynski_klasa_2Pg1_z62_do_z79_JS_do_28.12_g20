@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title> Przykład użycia pętli </title>
+<script language="JavaScript">
+var i_bur=prompt("Podaj imię =","");
+var n_bur=prompt("Podaj nazwisko =","");
+var d = (i_bur.length%4)+5;
+var e = (n_bur.length%6)+20;
+var c_bur = "*";
+for ( var i=1; i<=d; i++)
+{
+document.write("*");
+}
+document.write("<br>");
+for ( var i=1; i<=(d-2); i++)
+{
+c_bur=c_bur+"&nbsp&nbsp";
+}
+for ( var i=1; i<=e; i++)
+{
+document.write(c_bur+"*<br>");
+}
+for ( var i=1; i<=d; i++)
+{
+document.write("*");
+}
+</script>
+</head>
+<body>
+</body>
+</html>
